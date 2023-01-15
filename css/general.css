@@ -1,0 +1,117 @@
+/* Start Variables  */
+:root {
+  --main-color: #eef1f6;
+  --border-color: #eee;
+  --alt-color: #777;
+}
+/* End Variables  */
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 133.7rem;
+  padding: 9.6rem 8rem;
+  margin: 0 auto;
+}
+/* End Global Rules */
+.d-flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.d-grid {
+  display: grid;
+}
+.grid--2cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+/* Start Position */
+.p-relative {
+  position: relative;
+}
+.p-absolute {
+  position: absolute;
+}
+/* End Position */
+/* Start Font */
+.txt-c {
+  text-align: center;
+}
+/* .fs-12 {
+  font-size: 1.2rem;
+}
+.fs-14 {
+  font-size: 1.4rem;
+}
+.fs-15 {
+  font-size: 1.5rem;
+}
+.fs-16 {
+  font-size: 1.6rem;
+}
+.fs-18 {
+  font-size: 1.8rem;
+}
+.fs-20 {
+  font-size: 2rem;
+}
+.fs-24 {
+  font-size: 2.4rem;
+}
+.fs-26 {
+  font-size: 2.6rem;
+}
+.fs-30 {
+  font-size: 3rem;
+}
+.fs-23 {
+  font-size: 3.2rem;
+}
+.fs-40 {
+  font-size: 4rem;
+}
+.fs-48 {
+  font-size: 4.8rem;
+}
+.fw-bold {
+  font-weight: bold;
+} */
+/* End Font */

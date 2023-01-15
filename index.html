@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="imgs/favicon-32x32.png" />
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Template CSS File  -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <script src="js/script.js" defer></script>
+
+    <title>appie</title>
+  </head>
+  <body>
+    <header class="header d-flex align-center p-relative">
+      <a href="#">
+        <img class="logo" alt="appie logo" src="imgs/logo.png" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list d-flex align-center">
+          <li>
+            <a id="home" class="main-nav-link" href="#Home">Home</a>
+            <i class="fa-solid fa-chevron-down"></i>
+          </li>
+          <li>
+            <a id="service" class="main-nav-link" href="#Service">Service</a>
+          </li>
+          <li>
+            <a id="page" class="main-nav-link" href="#pages">Pages</a>
+            <i class="fa-solid fa-chevron-down"></i>
+          </li>
+          <li>
+            <a id="news" class="main-nav-link" href="#news">News</a>
+            <i class="fa-solid fa-chevron-down"></i>
+          </li>
+          <li>
+            <a id="Contact" class="main-nav-link" href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="nav-cta" href="#get-started">Get Started</a>
+
+      <button class="btn-mobile-nav">
+        <i class="fa-sharp fa-solid fa-bars icon-mobile-nav menuOutline"></i>
+        <i class="fa-solid fa-xmark icon-mobile-nav closeOutline"></i>
+      </button>
+    </header>
+
+    <main>
+      <section id="home" class="section-hero">
+        <div class="hero align-center d-grid">
+          <div class="left-side">
+            <div class="hero-text-box">
+              <h1 class="heading-primary">
+                Ready to launch your app in one, <span>Application</span>
+              </h1>
+              <p class="hero-description">
+                Find the best application in the appie.
+              </p>
+            </div>
+            <div class="form-container">
+              <form class="p-relative" action="">
+                <i class="fa-regular fa-envelope"></i>
+                <input type="email" name="mail" placeholder="info@appie.com" />
+                <div class="right-arrow">
+                  <i class="fa-sharp fa-solid fa-arrow-right p-relative"></i>
+                </div>
+              </form>
+            </div>
+
+            <div class="feedback d-flex align-center">
+              <div class="feedback-imgs d-flex">
+                <img src="imgs/people/customer-1.jpg" alt="Customer photo" />
+                <img src="imgs/people/customer-2.jpg" alt="Customer photo" />
+                <img src="imgs/people/customer-3.jpg" alt="Customer photo" />
+                <img src="imgs/people/customer-4.jpg" alt="Customer photo" />
+              </div>
+              <p class="feedback-text"><span>30K</span> Feedback</p>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <img
+              class="p-relative"
+              src="imgs/hero.png"
+              alt="A Sample Product"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="features">
+        <div class="container">
+          <div class="features-main d-flex align-center space-between">
+            <div class="secondary-heading">
+              <h2>How does it work</h2>
+              <p>
+                The full monty spiffing good time no biggie cack grub fantastic.
+              </p>
+            </div>
+            <div class="view-btn d-flex">
+              <a href="#">View all Features</a>
+              <i class="fa-sharp fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="box-container d-grid grid--3cols">
+            <div class="box c-blue">
+              <i class="fa-sharp fa-solid fa-bolt-lightning"></i>
+              <h3>Fast and intuitive</h3>
+              <p>
+                Oxford posh bevvy give us a bell gutted mate spend a penny
+                quaint cockup plastered.
+              </p>
+              <div class="arr-btn">
+                <a href="#">Read Mor</a>
+                <i class="fa-thin fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+            <div class="box c-red">
+              <i class="fa-sharp fa-solid fa-house-chimney home"></i>
+              <h3>Fast and intuitive</h3>
+              <p>
+                Oxford posh bevvy give us a bell gutted mate spend a penny
+                quaint cockup plastered.
+              </p>
+              <div class="arr-btn">
+                <a href="#">Read Mor</a>
+                <i class="fa-thin fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+            <div class="box c-dblue">
+              <i class="fa-solid fa-link link"></i>
+              <h3>Fast and intuitive</h3>
+              <p>
+                Oxford posh bevvy give us a bell gutted mate spend a penny
+                quaint cockup plastered.
+              </p>
+              <div class="arr-btn">
+                <a href="#">Read Mor</a>
+                <i class="fa-thin fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+            <div class="box c-orange">
+              <i class="fa-solid fa-bell bell"></i>
+              <h3>Fast and intuitive</h3>
+              <p>
+                Oxford posh bevvy give us a bell gutted mate spend a penny
+                quaint cockup plastered.
+              </p>
+              <div class="arr-btn">
+                <a href="#">Read Mor</a>
+                <i class="fa-thin fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+            <div class="box c-purple">
+              <i class="fa-solid fa-gear settings"></i>
+              <h3>Fast and intuitive</h3>
+              <p>
+                Oxford posh bevvy give us a bell gutted mate spend a penny
+                quaint cockup plastered.
+              </p>
+              <div class="arr-btn">
+                <a href="#">Read Mor</a>
+                <i class="fa-thin fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+            <div class="box c-green">
+              <i class="fa-solid fa-lock lock"></i>
+              <h3>Fast and intuitive</h3>
+              <p>
+                Oxford posh bevvy give us a bell gutted mate spend a penny
+                quaint cockup plastered.
+              </p>
+              <div class="arr-btn">
+                <a href="#">Read Mor</a>
+                <i class="fa-thin fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="marketing d-flex align-center">
+            <div class="img-holder">
+              <img class="p-relative" src="imgs/about-thumb.png" alt="" />
+            </div>
+            <div class="marketing-right">
+              <span>Marketing</span>
+              <h1>Make a lasting impression with appie.</h1>
+              <p>
+                Jolly good quaint james bond victoria sponge happy days cras
+                arse over blatant.
+              </p>
+              <div class="marketing-info d-grid grid--2cols">
+                <div class="marketing-box d-flex">
+                  <i class="fa-sharp fa-solid fa-circle-check"></i>
+                  <div class="marketing-txt">
+                    <h4>Carefully designed</h4>
+                    <p>Mucker plastered bugger all mate morish are.</p>
+                  </div>
+                </div>
+                <div class="marketing-box d-flex">
+                  <i class="fa-sharp fa-solid fa-circle-check"></i>
+                  <div class="marketing-txt">
+                    <h4>Choose a App</h4>
+                    <p>Mucker plastered bugger all mate morish are.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="page" class="design">
+        <div class="design-main txt-c">
+          <h2>
+            Wherever you need <br />
+            us the most
+          </h2>
+          <p>
+            The full monty spiffing good time no biggie cack grub fantastic.
+          </p>
+        </div>
+        <div class="design-holder d-grid grid--2cols">
+          <div class="design-features">
+            <div class="design-features-box d-flex">
+              <div class="design-circle r-color d-flex"></div>
+              <div class="design-text">
+                <h3>Well Integrated</h3>
+                <p>The bee's knees chancer car boot absolutely.</p>
+              </div>
+            </div>
+            <div class="design-features-box d-flex">
+              <div class="design-circle b-color d-flex"></div>
+              <div class="design-text">
+                <h3>Clean and modern Design</h3>
+                <p>The bee's knees chancer car boot absolutely.</p>
+              </div>
+            </div>
+            <div class="design-features-box d-flex">
+              <div class="design-circle g-color d-flex"></div>
+              <div class="design-text">
+                <h3>Light and dark mode</h3>
+                <p>The bee's knees chancer car boot absolutely.</p>
+              </div>
+            </div>
+          </div>
+          <div class="design-img">
+            <img src="imgs/design.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section id="news" class="stats">
+        <div class="container">
+          <div class="secondary-heading">
+            <h2>How does it work</h2>
+            <p>
+              The full monty spiffing good time no biggie cack grub fantastic.
+            </p>
+          </div>
+          <div class="stats-container d-grid txt-c grid--4cols">
+            <div class="stats-box txt-c">
+              <img src="imgs/icons/counter-icon-1.svg" alt="" />
+              <span>45K+</span>
+              <p>Active Installation</p>
+            </div>
+            <div class="stats-box txt-c">
+              <img src="imgs/icons/counter-icon-2.svg" alt="" />
+              <span>108+</span>
+              <p>Active Installation</p>
+            </div>
+            <div class="stats-box txt-c">
+              <img src="imgs/icons/counter-icon-3.svg" alt="" />
+              <span>307+</span>
+              <p>Active Installation</p>
+            </div>
+            <div class="stats-box txt-c">
+              <img src="imgs/icons/counter-icon-4.svg" alt="" />
+              <span>725K+</span>
+              <p>Active Installation</p>
+            </div>
+          </div>
+          <div class="stats-holder d-flex space-between">
+            <div class="stats-left">
+              <div class="video-container p-relative">
+                <img src="imgs/video-thumb-1.jpg" alt="" />
+                <div class="play-icon-box">
+                  <div class="play-icon-border">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="stats-txt">
+                <h3>Watch the two-minute video to learn how.</h3>
+                <p>
+                  The wireless cheesed on your bike mate zonked a load of old
+                  tosh hunky dory it's all gone to <br />
+                  pot haggle william car boot pear shaped geeza.
+                </p>
+                <a class="stats-btn" href="#get-started">Get Started</a>
+              </div>
+            </div>
+            <div class="stats-right">
+              <img src="imgs/video-slide-1.jpg" alt="" />
+              <div class="stats-arr d-flex">
+                <i class="fa-sharp fa-solid fa-arrow-left"></i>
+                <i class="fa-sharp fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="download">
+        <div class="container">
+          <div class="download-main">
+            <span>Download Our App</span>
+            <h3>
+              App is available <br />
+              for free on app store
+            </h3>
+            <p>
+              Jolly good quaint james bond victoria sponge happy days cras
+              <br />
+              arse over blatant.
+            </p>
+          </div>
+          <div class="download-btns d-flex align-center">
+            <div class="download-box apple d-flex align-center">
+              <i class="fa-brands fa-apple"></i>
+              <div class="download-txt">
+                <p>Download for</p>
+                <span>iOS</span>
+              </div>
+            </div>
+            <div class="download-box android d-flex align-center">
+              <i class="fab fa-google-play"></i>
+              <div class="download-txt">
+                <p>Download for</p>
+                <span>Android</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pricing">
+        <div class="container">
+          <div class="pricing-main txt-c">
+            <h3>Simple pricing for Everyone</h3>
+            <p>
+              The full monty spiffing good time no biggie cack grub fantastic.
+            </p>
+            <div class="select-btn d-flex align-center">
+              <a class="monthly" href="#">Monthly</a>
+              <a class="yearly" href="#">Yearly</a>
+            </div>
+          </div>
+          <div class="pricing-holder d-grid grid--3cols">
+            <div class="pricing-plan">
+              <header class="plan-header">
+                <p class="plan-name">Fresh</p>
+                <p class="plan-price"><span>$</span>04</p>
+                <p class="plan-text">Get your 14 day free trial</p>
+              </header>
+              <ul class="list d-flex">
+                <li class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>60-day chat history </span>
+                </li>
+                <li class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>15 GB cloud storage</span>
+                </li>
+                <li class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>24/7 Support</span>
+                </li>
+                <li class="list-item"></li>
+              </ul>
+              <div class="plan-sing-up">
+                <a href="#" class="">Choose plan</a>
+              </div>
+            </div>
+
+            <div class="pricing-plan complete p-relative">
+              <header class="plan-header">
+                <p class="plan-name">Sweet</p>
+                <p class="plan-price"><span>$</span>16</p>
+                <p class="plan-text">Billed $276 per website annually.</p>
+              </header>
+              <ul class="list">
+                <li class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>60-day chat history </span>
+                </li>
+                <li class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>50 GB cloud storage</span>
+                </li>
+                <li class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>24/7 Support</span>
+                </li>
+                <li class="list-item"></li>
+              </ul>
+              <div class="plan-sing-up choosed">
+                <a href="#" class="">Choose plan</a>
+              </div>
+            </div>
+
+            <div class="pricing-plan juicy">
+              <header class="plan-header">
+                <p class="plan-name">Juicy</p>
+                <p class="plan-price"><span>$</span>27</p>
+                <p class="plan-text">Billed $276 per website annually.</p>
+              </header>
+              <ul class="list">
+                <li class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>60-day chat history </span>
+                </li>
+                <li class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>Data security </span>
+                </li>
+                <li class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>100 GB cloud storage</span>
+                </li>
+                <li class="list-item">
+                  <i class="fa-solid fa-check"></i>
+                  <span>24/7 Support</span>
+                </li>
+              </ul>
+              <div class="plan-sing-up">
+                <a href="#" class="">Choose plan</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio">
+        <div class="container">
+          <div class="portfolio-holder d-grid align-center p-relative">
+            <div class="portfolio-img d-flex align-center">
+              <img src="imgs/ahmed.jpg" alt="" />
+              <div class="rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="review">
+                <span>(4.7) review</span>
+              </div>
+            </div>
+            <div class="portfolio-txt">
+              <p>
+                Why I say old chap that is spiffing chip shop such a fibber the
+                bee's knees, the wireless Richard fantastic do one cracking goal
+                pukka baking cakes starkers mush dont get shirty with me argy
+                bargy, I naff chimney pot blimey he lost his bottle cup.
+              </p>
+              <div class="portfolio-info d-flex space-between">
+                <div class="portfolio-name">
+                  <h3>Hanson Deck</h3>
+                  <span>Web developer</span>
+                </div>
+                <div class="portfolio-arr d-flex align-center">
+                  <i class="fa-sharp fa-solid fa-arrow-left"></i>
+                  <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sponsors txt-c">
+        <div class="sponsors-container">
+          <div class="sponsors-main txt-c">
+            <h3>
+              Appie works best with <br />
+              your favorite platforms
+            </h3>
+            <p>Join over 40,000 businesses worldwide.</p>
+          </div>
+          <div class="sponsors-imgs">
+            <div class="sponsors-top d-flex align-center">
+              <img src="imgs/sponsers/sponser-1.png" alt="" />
+              <img src="imgs/sponsers/sponser-2.png" alt="" />
+              <img src="imgs/sponsers/sponser-3.png" alt="" />
+              <img src="imgs/sponsers/sponser-4.png" alt="" />
+              <img src="imgs/sponsers/sponser-5.png" alt="" />
+              <img src="imgs/sponsers/sponser-6.png" alt="" />
+            </div>
+            <div class="sponsors-bottom d-flex align-center">
+              <img src="imgs/sponsers/sponser-7.png" alt="" />
+              <img src="imgs/sponsers/sponser-8.png" alt="" />
+              <img src="imgs/sponsers/sponser-9.png" alt="" />
+              <img src="imgs/sponsers/sponser-10.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer id="Contact" class="footer">
+        <div class="container-footer">
+          <div class="footer-main">
+            <div class="footer-grid d-grid">
+              <div class="logo-col d-flex">
+                <a href="#" class="footer-logo">
+                  <img class="logo" alt="Appie logo" src="imgs/logo.png" />
+                  <p>
+                    Appie WordPress is theme is the last <br />
+                    theme you will ever have.
+                  </p>
+                  <a href="#" class="btn-more"
+                    >Read More <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                  </a>
+                </a>
+                <ul class="social-links d-flex">
+                  <li>
+                    <a class="footer-link" href="#"
+                      ><i class="fa-brands fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="footer-link" href="#"
+                      ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="footer-link" href="#"
+                      ><i class="fa-brands fa-pinterest-p"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="footer-link" href="#"
+                      ><i class="fa-brands fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <p class="footer-heading">Company</p>
+                <ul class="footer-nav">
+                  <li><a class="footer-link" href="#">About Us</a></li>
+                  <li><a class="footer-link" href="#">Service</a></li>
+                  <li><a class="footer-link" href="#">Case Studies</a></li>
+                  <li><a class="footer-link" href="#"> Blog</a></li>
+                  <li><a class="footer-link" href="#"> Contact</a></li>
+                </ul>
+              </div>
+
+              <div class="footer-col">
+                <p class="footer-heading">Support</p>
+                <ul class="footer-nav">
+                  <li><a class="footer-link" href="#">Community</a></li>
+                  <li><a class="footer-link" href="#">Resources</a></li>
+                  <li><a class="footer-link" href="#">Faqs</a></li>
+                  <li><a class="footer-link" href="#">Privacy Policy</a></li>
+                  <li><a class="footer-link" href="#">Careers</a></li>
+                </ul>
+              </div>
+
+              <div class="communicate-col">
+                <p class="footer-heading">Get In Touch</p>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  <span> support@appie.com</span>
+                </li>
+                <li>
+                  <i class="fa-sharp fa-solid fa-phone-flip"></i>
+                  <span>+(642) 342 762 44 </span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span>
+                    442 Belle Terre St Floor 7, San <br />
+                    Francisco, AV 4206
+                  </span>
+                </li>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-secondary d-flex align-center space-between">
+            <div class="down-btns d-flex align-center">
+              <div class="down-box bk-white d-flex align-center">
+                <i class="fa-brands fa-apple"></i>
+                <div class="download-txt">
+                  <p>Download for iOS</p>
+                </div>
+              </div>
+              <div class="down-box bor d-flex align-center">
+                <i class="fab fa-google-play"></i>
+                <div class="download-txt">
+                  <p>Download for Android</p>
+                </div>
+              </div>
+            </div>
+            <div class="copyright">
+              Copyright &copy; 2023 Appie. All rights reserved.
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
